@@ -1,26 +1,168 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  overflow-x: hidden;
+}
+body{
+  font-family: Roboto, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.my-bg-color1{
+background-color: rgb(111, 139, 164) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.my-bg-color2{
+  background-color: rgba(34, 58, 102,0.8) !important;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.top{
+  min-height: 60px;
+  background-color: #223a66;
+  font-size: 14px;
+  font-weight: 600;
 }
+
+.banner{
+  min-height: 600px;
+  background: url(/bg/slider-bg-1.jpg);
+  background-size: 100% 100%;
+}
+
+.strip{
+  height: 5px; 
+  width:40px;
+  background-color: #e12454;
+}
+
+.health{
+  color: rgb(111, 139, 164);
+  font-size: 16px;
+}
+
+.banner-heading{
+  font-size: 60px;
+  color:rgb(111, 139, 164);
+}
+.my-color1{
+  color:rgb(111, 139, 164) !important;
+}
+.my-color2{
+  color: #223a66 !important;
+}
+.my-color3{
+  color:#e12454 !important;
+}
+.my-btn-hover:hover{
+  background: #223a66 !important;
+  transition: all 1s;
+}
+
+.my-btn-hover1:hover{
+  background: #0ea64b !important;
+  transition: all 1s;
+}
+
+.mybtn-color1{
+  background: #223a66 !important;
+  color:white !important;
+}
+
+.mybtn-color1:hover{
+  background: #39e879 !important;
+  transition: all 1s;
+}
+
+.a{
+  transform: translateY(-50px);
+}
+.b{
+  height: 98%; width: 98%;
+  background-color: yellow;
+}
+.head{
+  height: 70px;
+  background-color: #1f4081 !important;
+  color: whitesmoke !important;
+}
+.myform-control{
+  background-color: transparent !important ;
+  border: none !important;
+  border-bottom: 1px solid white !important ;
+  color:black !important;
+ 
+}
+.t{
+  color: black !important;
+}
+
+::placeholder{
+  color:dark !important;
+}
+
+
+.img{max-height: 200px;}
+
+.front{
+  background: url(../../public/bg/slider-bg-1.png);
+  background-size: cover;
+  min-height: 550px;
+  color:#1f4081 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  
+}
+btn{background: red !important;}
+
+.pcare{
+  min-height: auto;
+}
+
+.pcimg{
+  max-height: 300px;
+  padding-top: 20px;
+  margin-left: 150px;
+}
+.pcimg1{
+  max-height: 550px;
+  min-width: 350px;
+  padding-top: 70px;
+}
+.pctext{
+text-align: start;
+
+
+  
+}
+.arrowb{
+  margin-top: 100px;
+  float: inline-end;
+}
+
+.plike{
+  min-height: 200px;
+  background: white !important;
+  padding: 30px 130px;
+}
+
+.peaplelike{
+  max-width: 800px;
+  background: #1f4081 !important;
+  color: whitesmoke !important;
+}
+.textpl{text-align: center;}
+
+.awardtext{
+  min-height: 200px;
+  justify-items: center;
+}
+
+.bookapp{max-height: 500px; max-width: 600px;}
+
+.form-control{background: #d7f5ee !important;}
+.bookbtn{background: #1f4081;}
+.bookarrowb{float: inline-end;}
+
+il{text-decoration: none;}
+
+.login{background: #3b3c3c !important; color: black !important;}
+.form{background: #b0afb0 !important; color: black !important;}
